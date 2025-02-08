@@ -1,0 +1,20 @@
+  482  touch README.md
+  483  git add README.md
+  484  git commit -m "first commit"
+  485  git branch -M main
+  486  git push -u origin main
+  487  touch Problem1.ipynb
+  488  touch Problem2.ipynb
+  489  code Problem1.ipynb
+  490  git pull
+  491  git add .
+  492  git commit -m "started hw 3"
+  493  git push
+  494  ls
+  495  cd ./Local_density_of_states_near_band_edge-main
+  496  mkdir local_density_of_states_heatmap
+  497  mkdir local_density_of_states_height
+  498  ls
+  499  cd ../../
+  500  cd ./129L_ProblemSet_3
+  501  history | tail -n 20 >> ProblemSet3History.txt
